@@ -38,7 +38,7 @@ const News = (props) => {
     }
     return (
         <div className=' container d-flex flex-column' >
-            <h1 className='text-center' style={{marginTop:'5%'}}> iQNEWS - Top Headlines From {props.title[0].toUpperCase() + props.title.slice(1,)} Category </h1>
+            <h1 className='text-center' style={{marginTop:'15vh'}}> iQNEWS - Top {props.title[0].toUpperCase() + props.title.slice(1,)} Headlines </h1>
             {
                 console.log(articles)
             }
